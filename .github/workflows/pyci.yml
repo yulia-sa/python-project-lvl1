@@ -1,0 +1,24 @@
+name: Python CI
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python3
+        uses: actions/setup-python@v2
+        # make depends on poetry
+      - name: Install dependencies
+        run: |
+          pip install poetry
+          make install
+      - name: Run linter
+        run: |
+          make lint
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
