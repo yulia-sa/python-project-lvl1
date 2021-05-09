@@ -19,4 +19,4 @@ def generate_game_data():
     elif operator == "*":
         answer = first_number * second_number
 
-    return (f"{first_number} {operator} {second_number}"), answer
+    return f"{first_number} {operator} {second_number}", answer

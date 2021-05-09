@@ -1,7 +1,12 @@
 # Environments
+.env
 .venv
 
-# Distribution
+# Editors
+.vscode/
+.idea/
+
+# Distribution / packaging
 dist/
 
 # Byte-compiled / optimized / DLL files
