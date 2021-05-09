@@ -16,9 +16,12 @@ def play(game):
         print("Question: " + str(question_data))
         user_answer = input("Your answer: ")
         if not user_answer.lower() == str(right_answer):
-            print(f"'{user_answer}' is wrong answer ;(. \
-                    Correct answer was '{right_answer}'.")
-            print(f"Let's try again, {user_name}!")
+            message = (
+                f"'{user_answer}' is wrong answer ;(. "
+                f"Correct answer was '{right_answer}'.\n"
+                f"Let's try again, {user_name}!"
+            )
+            print(message)
             return
         print("Correct!")
         i += 1
