@@ -4,7 +4,7 @@ from random import randint
 GAME_RULES = "Find the greatest common divisor of given numbers."
 
 NUMBERS_LEFT_BOUNDARY = 1
-NUMBERS_RIGHT_BOUNDARY = 100
+NUMBERS_RIGHT_BOUNDARY = 50
 
 
 def generate_game_data():
