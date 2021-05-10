@@ -24,11 +24,25 @@
 
 ## Запуск игр
 
-1. Игра «Проверка на чётность»
-Запускается командой _brain-even_.
-[![asciicast](https://asciinema.org/a/FMBMiU8GWihRUm44HDjK8hqWn.svg)](https://asciinema.org/a/FMBMiU8GWihRUm44HDjK8hqWn?t=2)
+### 1. Игра «Проверка на чётность»
+Запускается командой _brain-even_  
+[![asciicast](https://asciinema.org/a/GlUO4xUdnZPjKdyNsBHvAIHQS.svg)](https://asciinema.org/a/GlUO4xUdnZPjKdyNsBHvAIHQS?t=2)
 
+### 2. Игра «Калькулятор»
+Запускается командой _brain-calc_  
+[![asciicast](https://asciinema.org/a/wok2ZXG573myNkRCjgiNWwM10.svg)](https://asciinema.org/a/wok2ZXG573myNkRCjgiNWwM10?t=2)
 
+### 3. Игра «Наибольший общий делитель»
+Запускается командой _brain-gcd_  
+[![asciicast](https://asciinema.org/a/cX7hupMxJJSv7j1aKGIGIlpt5.svg)](https://asciinema.org/a/cX7hupMxJJSv7j1aKGIGIlpt5?t=2)
+
+### 4. Игра «Арифметическая прогрессия»
+Запускается командой _brain-progression_  
+[![asciicast](https://asciinema.org/a/PkNsnLWPQKBhc0PBOos15gVyz.svg)](https://asciinema.org/a/PkNsnLWPQKBhc0PBOos15gVyz?t=2)
+
+### 5. Игра «Простое ли число?»
+Запускается командой _brain-prime_  
+[![asciicast](https://asciinema.org/a/oiLPeVdwSJGUAzwCFsioDa3N0.svg)](https://asciinema.org/a/oiLPeVdwSJGUAzwCFsioDa3N0?t=2)
 
 # Цели проекта
 
