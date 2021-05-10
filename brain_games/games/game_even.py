@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 from random import randint
 
+
 GAME_RULES = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
 
 NUMBERS_LEFT_BOUNDARY = 0
