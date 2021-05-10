@@ -22,6 +22,8 @@
     * затем собрать пакет игр командой _make build_ (будет создана директория /dist с файлами пакетов *.whi и *.gz),
     * установить пакет из локального окружения (директории /dist) командой _make package-install_.
 
+[![asciicast](https://asciinema.org/a/mcnIZPOz41ZzMiNWUolKJ3tpt.svg)](https://asciinema.org/a/mcnIZPOz41ZzMiNWUolKJ3tpt?t=2)
+
 ## Запуск игр
 
 ### 1. Игра «Проверка на чётность»
