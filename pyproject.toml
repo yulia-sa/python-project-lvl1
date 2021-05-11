@@ -2,7 +2,9 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "Short arithmetic games."
-authors = ["Yulia S. <sav.jul@gmail.com>"]
+authors = [
+    "Yulia S. <sav.jul@gmail.com>"
+]
 repository = "https://github.com/yulia-sa/python-project-lvl1"
 packages = [
   { include = "brain_games" },
