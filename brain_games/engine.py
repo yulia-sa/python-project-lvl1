@@ -13,9 +13,9 @@ def play(game):
     i = 0
     while i < ROUNDS_NUMBER:
         question_data, right_answer = game.generate_game_data()
-        print("Question: " + str(question_data))
+        print("Question: " + question_data)
         user_answer = input("Your answer: ")
-        if not user_answer.lower() == str(right_answer):
+        if not user_answer.lower() == right_answer:
             message = (
                 f"'{user_answer}' is wrong answer ;(. "
                 f"Correct answer was '{right_answer}'.\n"

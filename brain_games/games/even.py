@@ -8,7 +8,11 @@ NUMBERS_LEFT_BOUNDARY = 0
 NUMBERS_RIGHT_BOUNDARY = 100
 
 
+def is_even(number):
+    return "yes" if number % 2 == 0 else "no"
+
+
 def generate_game_data():
     random_number = randint(NUMBERS_LEFT_BOUNDARY, NUMBERS_RIGHT_BOUNDARY)
-    answer = "yes" if random_number % 2 == 0 else "no"
-    return random_number, answer
+    answer = is_even(random_number)
+    return str(random_number), answer

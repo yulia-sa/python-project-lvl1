@@ -13,20 +13,22 @@ PROGRESSION_STEP_LEFT_BOUNDARY = 1
 PROGRESSION_STEP_RIGHT_BOUNDARY = 10
 
 
-def generate_game_data():
+def create_progression():
     progression_start = randint(PROGRESSION_START_LEFT_BOUNDARY,
                                 PROGRESSION_START_RIGHT_BOUNDARY)
     progression_step = randint(PROGRESSION_STEP_LEFT_BOUNDARY,
                                PROGRESSION_STEP_RIGHT_BOUNDARY)
 
-    progression = [progression_start]
-    for i in range(PROGRESSION_LENGTH - 1):
-        progression_last_number = progression[-1]
-        progression.append(progression_last_number + progression_step)
+    progression = [progression_start + (i * progression_step)
+                   for i in range(1, PROGRESSION_LENGTH + 1)]
 
-        guess_number_index = randint(0, PROGRESSION_LENGTH - 1)
+    return progression
 
+
+def generate_game_data():
+    progression = create_progression()
+    guess_number_index = randint(0, len(progression) - 1)
     guess_number = progression[guess_number_index]
     progression[guess_number_index] = ".."
 
-    return " ".join(map(str, progression)), guess_number
+    return " ".join(map(str, progression)), str(guess_number)
