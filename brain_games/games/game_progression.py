@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 from random import randint
 
-GAME_RULES = "What number is missing in the progression?"
+
+GAME_QUESTION = "What number is missing in the progression?"
 
 PROGRESSION_LENGTH = 10
 

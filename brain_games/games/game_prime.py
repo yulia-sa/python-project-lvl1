@@ -2,7 +2,8 @@
 from random import randint
 
 
-GAME_RULES = "Answer \"yes\" if given number is prime. Otherwise answer \"no\"."
+GAME_QUESTION = "Answer \"yes\" if given number is prime. \
+                Otherwise answer \"no\"."
 
 NUMBERS_LEFT_BOUNDARY = 0
 NUMBERS_RIGHT_BOUNDARY = 200

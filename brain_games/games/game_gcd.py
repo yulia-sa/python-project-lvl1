@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 from random import randint
 
-GAME_RULES = "Find the greatest common divisor of given numbers."
+
+GAME_QUESTION = "Find the greatest common divisor of given numbers."
 
 NUMBERS_LEFT_BOUNDARY = 1
 NUMBERS_RIGHT_BOUNDARY = 50

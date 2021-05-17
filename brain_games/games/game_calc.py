@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 from random import randint, choice
 
-GAME_RULES = "What is the result of the expression?"
+
+GAME_QUESTION = "What is the result of the expression?"
 
 NUMBERS_LEFT_BOUNDARY = 0
 NUMBERS_RIGHT_BOUNDARY = 10
