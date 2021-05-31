@@ -12,6 +12,7 @@ def generate_game_data():
     first_number = randint(NUMBERS_LEFT_BOUNDARY, NUMBERS_RIGHT_BOUNDARY)
     second_number = randint(NUMBERS_LEFT_BOUNDARY, NUMBERS_RIGHT_BOUNDARY)
     operator = choice(["+", "-", "*"])
+    question = " ".join([str(first_number), operator, str(second_number)])
 
     if operator == "+":
         answer = first_number + second_number
@@ -20,4 +21,4 @@ def generate_game_data():
     elif operator == "*":
         answer = first_number * second_number
 
-    return f"{first_number} {operator} {second_number}", str(answer)
+    return question, str(answer)

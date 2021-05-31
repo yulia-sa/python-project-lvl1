@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import prompt
 
-ROUNDS_NUMBER = 3
+NUMBER_OF_ROUNDS = 3
 
 
 def play(game):
@@ -11,7 +11,7 @@ def play(game):
     print(game.GAME_QUESTION)
 
     i = 0
-    while i < ROUNDS_NUMBER:
+    while i < NUMBER_OF_ROUNDS:
         question_data, right_answer = game.generate_game_data()
         print("Question: " + question_data)
         user_answer = input("Your answer: ")

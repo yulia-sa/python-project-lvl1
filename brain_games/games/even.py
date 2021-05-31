@@ -9,7 +9,7 @@ NUMBERS_RIGHT_BOUNDARY = 100
 
 
 def is_even(number):
-    return True if number % 2 == 0 else False
+    return number % 2 == 0
 
 
 def generate_game_data():
